@@ -40,6 +40,14 @@ pipeline {
             }
         }
 
+        stage('Install Dependencies') {
+            steps {
+                script {
+                    sh "npm test"
+                }
+            }
+        }
+
         stage('Build Image') {
             steps {
                 script {
