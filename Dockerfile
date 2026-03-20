@@ -23,7 +23,7 @@ ENV MONGO="true" \
     MONGO_URL="mongodb://mongodb:27017/catalogue"
     
 # ikkada developer change cheste change avuthundhi so last rasam 
-COPY --from=build --chown=roboshop:roboshop/opt/server /opt/server 
+COPY --from=build --chown=roboshop:roboshop /opt/server /opt/server 
 
 
 # these will not work in build time so ekkada pettina okkate
