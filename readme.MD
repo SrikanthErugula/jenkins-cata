@@ -36,7 +36,7 @@ sudo systemctl enable jenkins
 An issue representing a coding error that will likely cause unexpected behavior or application failure. This seems fine but sometimes it may break in production.
 
 ### 🔐 Vulnerabilities
-A security-related holes that can be exploited by attackers. This can be hacked ...( it means small small security loop holes by using this hackers will come into they will hack our code)
+A security-related holes that can be exploited by attackers. This can be hacked ...( it means small small security loop holes vunte, by using this hackers will come into inside they will hack our code stoal the pwd)
 
 ### 👃 Code Smells
 A maintainability issue that does not break the app but makes the code hard to understand, change, or maintain. This works today, but hurts tomorrow
